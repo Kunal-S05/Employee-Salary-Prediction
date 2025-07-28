@@ -21,18 +21,18 @@ The Employee Salary Prediction App is a Streamlit-based interface that uses a tr
 
 ## How to run the project
 
-### 1.Clone the repository
+### 1. Clone the repository
       git clone https://github.com/Kunal-S05/employee-salary-prediction.git
       cd employee-salary-prediction
 
-### 2.Create and activate a virtual environment
+### 2. Create and activate a virtual environment
       python -m venv venv
       source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-### 3.Install dependencies
+### 3 Install dependencies
     pip install -r requirements.txt
 
-### 4.Run the Streamlit app
+### 4. Run the Streamlit app
     streamlit run app.py
 
 ----
