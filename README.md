@@ -4,6 +4,7 @@ The Employee Salary Prediction App is a Streamlit-based interface that uses a tr
 ## Output-
 
 ![OUTPUT](image/p1.png)
+--
 ![OUTPUT](image/p2.png)
 
 ---
@@ -16,5 +17,23 @@ The Employee Salary Prediction App is a Streamlit-based interface that uses a tr
   - 'adult 3.csv' - The cleaned version of dataset used for training and testing the salary prediction model.
   - 'employee salary prediction.ipynb' - Jupyter Notebook used preprocessing, training various models, performance comparison, and saving the final model files.
 
-  ---
-  
+---
+
+## How to run the project
+
+### 1.Clone the repository
+      git clone https://github.com/Kunal-S05/employee-salary-prediction.git
+      cd employee-salary-prediction
+
+### 2.Create and activate a virtual environment
+      python -m venv venv
+      source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+### 3.Install dependencies
+    pip install -r requirements.txt
+
+### 4.Run the Streamlit app
+    streamlit run app.py
+
+----
+
